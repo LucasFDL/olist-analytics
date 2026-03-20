@@ -1,22 +1,34 @@
 # Olist Analytics
 
-Exploratory data analysis of the Olist Brazilian e-commerce dataset,
-covering order behavior, delivery performance, and regional patterns.
+Análise exploratória do dataset de e-commerce brasileiro da Olist,
+cobrindo comportamento de pedidos, performance de entrega e padrões regionais.
 
-## Objective
+## Objetivo
 
-Identify key insights about order volume, average ticket, delivery 
-efficiency and delays across Brazilian states.
+Identificar insights sobre volume de pedidos, ticket médio, eficiência
+de entrega e atrasos nos estados brasileiros.
 
-## Project Structure
+## Análises realizadas
 
+- Volume de pedidos por estado
+- Ticket médio por estado e por categoria de produto
+- Pedidos por mês
+- Média de itens por pedido
+- Proporção do frete por estado
+- Taxa de entrega no prazo
+- Taxa de atraso por estado (percentual)
+- Multi-join com 5 tabelas: orders, order_items, customers, products, sellers
+
+## Estrutura do projeto
+```
 olist-analytics/
 ├── data/
-│   ├── raw/          # Original CSV files from Kaggle
-│   └── processed/    # Cleaned and merged datasets
-├── docs/             # Study notes and references
-├── notebooks/        # Jupyter notebooks (EDA, analysis)
+│   ├── raw/          # CSVs originais do Kaggle
+│   └── processed/    # Datasets limpos e unidos
+├── docs/             # Notas de estudo e referências
+├── notebooks/        # Jupyter notebooks (EDA, análises)
 └── README.md
+```
 
 ## Stack
 
@@ -27,4 +39,8 @@ olist-analytics/
 
 ## Status
 
-🟡 In progress — EDA and initial analysis complete.
+🟡 Em andamento — EDA completo. Visualizações e SQL na próxima etapa.
+```
+
+---
+```
