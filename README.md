@@ -23,9 +23,13 @@ de entrega e atrasos nos estados brasileiros.
 ### SQL — DuckDB
 - Volume de pedidos por estado
 - Distribuição de pedidos por status
-- Ticket médio por estado
+- AOV (average order value) por estado
 - Top 10 produtos mais vendidos
 - Top 10 sellers por itens vendidos
+- Top 10 categorias por receita (subquery + JOIN triplo)
+- Classificação de pedidos por atraso na entrega (CASE statement)
+- Análise de meios de pagamento: volume, receita e AOV
+- Distribuição por número de parcelas (credit_card)
 
 ## Estrutura do projeto
 ```
