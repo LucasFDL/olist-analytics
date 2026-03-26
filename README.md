@@ -24,12 +24,15 @@ de entrega e atrasos nos estados brasileiros.
 - Volume de pedidos por estado
 - Distribuição de pedidos por status
 - AOV (average order value) por estado
-- Top 10 produtos mais vendidos
+- Top 10 produtos mais vendidos por categoria
 - Top 10 sellers por itens vendidos
 - Top 10 categorias por receita (subquery + JOIN triplo)
 - Classificação de pedidos por atraso na entrega (CASE statement)
 - Análise de meios de pagamento: volume, receita e AOV
 - Distribuição por número de parcelas (credit_card)
+- Volume de pedidos por mês
+- Receita por estado — cliente vs seller (4 tabelas)
+- Ticket médio por categoria e estado — top 10 por categoria (5 tabelas)
 
 ## Estrutura do projeto
 ```
